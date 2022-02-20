@@ -22,10 +22,10 @@ These objects were removed from the data: columns=['EIN','NAME']
 **Compiling, Training, and Evaluating the Model**
 
 **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
-The original model requested 2 hidden layers with relu activation inputs, and sigmoid output. 
+1) The original model requested 2 hidden layers with relu activation inputs, and sigmoid output. 
  
 **Were you able to achieve the target model performance of 75%?**
-No. I did try multiple items and received about a 66% as highest. There are other items I could have considered increasing epochs, organizing the other values into 'Other' categories, adding data, chamging the model.
+2) No. I did try multiple items and received about a 66% as highest. 
 
 **What steps did you take to try and increase model performance?**
 1) Removed additional variables that may have had noise or were duplicates in general behavior: Status, Income_Amt, Ask_Amt. 
